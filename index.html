@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHNO 2024</title>
+    <link href="home.css" rel="stylesheet" type="text/css" />
+    <link href="./navbar-footer.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="assets/logo1.png" alt="Logo Techno" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="event.html">Events</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div class="placeholder"></div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="landing" id="home">
+        <video autoplay muted loop class="background-video">
+          <source src="assets/background-landing.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+        <div class="overlay-top"></div>
+        <img src="assets/logo1.png" alt="Logo Techno" />
+        <a href="#about"><button class="learn-more">Learn more</button></a>
+      </section>
+
+      <div class="background-container">
+        <div class="overlay2"></div>
+        <section class="about" id="about">
+          <div class="about-content">
+            <img src="assets/what-is-techno.png" alt="Techno Event" />
+            <div class="about-text">
+              <h2>WHAT IS TECHNO?</h2>
+              <p>
+                TECHNO (Togetherness, Entertainment, and Chasing New
+                Opportunity) is a joint event organized by HIMTI BINUS to
+                welcome and inaugurate freshmen of the BINUS University School
+                of Computer Science (SOCS).
+              </p>
+              <a href="https://bit.ly/Techno2024Guidebook" target=”_blank” class="learn-more-button">Guidebook</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="benefits">
+          <h1>BENEFITS</h1>
+          <div class="benefits-container">
+            <div class="benefit-card">
+              <h2>STARTER PACK</h2>
+              <p style="font-weight: bold">
+                Freshmen will receive PBP (Pengenalan Bahasa Pemrograman) training
+              </p>
+              <p>
+                as a provision before entering the first semester lectures and to teach the basics of programming.
+              </p>
+            </div>
+            <div class="benefit-card">
+              <h2>HIMTI KIT</h2>
+              <p style="font-weight: bold">
+                After following the TECHNO Main Event, Freshmen will be provided with supplies in the form of a HIMTI KIT,
+              </p>
+              <p>
+                which is a package containing a summary of courses and a collection of software that supports SoCS student lectures
+              </p>
+            </div>
+            <div class="benefit-card">
+              <h2>SOCS INAUGURATION</h2>
+              <p style="font-weight: bold">
+                One of the series of TECHNO events is the inauguration of BINUS University's SoCS freshmen which is officially held under the SoCS faculty.
+              </p>
+              <p>
+                Therefore, TECHNO is specifically for Binusian SoCS students.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" class="faq">
+          <h1>FAQ</h1>
+          <div class="faq-container">
+            <div class="faq-category">
+              <h2>Kategori</h2>
+              <ul>
+                <li data-category="techno" class="active">Techno</li>
+                <li data-category="pbp">
+                  Pembelajaran Bahasa Pemrograman (PBP)
+                </li>
+                <li data-category="ide">An example of an IDE is Dev-C++</li>
+                <li data-category="kit">HIMTI KIT</li>
+                <li data-category="twibbon">Twibbon</li>
+                <li data-category="activist">HIMTI Activist</li>
+              </ul>
+            </div>
+            <div class="faq-questions">
+              <div class="faq-item active" data-category="techno">
+                <div class="faq-content">
+                  <h3 class="faq-number">01</h3>
+                  <div class="faq-text">
+                    <h3>
+                      Will transportation be provided for participants to the TECHNO 2024 venue?  
+                    </h3>
+                    <p>
+                      For the Alam Sutera, Senayan and Bekasi regions, limited transportation will be provided. There will be data collection for participants who wish to use the transportation provided. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item active" data-category="techno">
+                <div class="faq-content">
+                  <h3 class="faq-number">02</h3>
+                  <div class="faq-text">
+                    <h3>
+                      Is it still permissible to register as a HIMTI activist even if you don't take part in the TECHNO 2024 event?  
+                    </h3>
+                    <p>
+                      Participants can still join as HIMTI activists even if they don't take part in the TECHNO 2024 event. However, it would be better if participants take part in the TECHNO 2024 event to get to know HIMTI better.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="pbp">
+                <div class="faq-content">
+                  <h3 class="faq-number">01</h3>
+                  <div class="faq-text">
+                    <h3>
+                      Why should you learn the C and Python programming languages?  
+                    </h3>
+                    <p>
+                      For a beginner, C and Python are programming languages that can be used to understand the principles of programming algorithms easily. The C language is also used in the early stages of lectures by all SoCS majors in the Algorithm and Programming course, and the Python language is also used by SoCS Senayan students.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="pbp">
+                <div class="faq-content">
+                  <h3 class="faq-number">02</h3>
+                  <div class="faq-text">
+                    <h3>What is IDE and Compiler?</h3>
+                    <p>
+                      IDE (Integrated Development Environment) is an application software used to write code. A compiler is software that can convert source code or programming code into machine language so that it can be run by a computer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="ide">
+                <div class="faq-content">
+                  <h3 class="faq-number">01</h3>
+                  <div class="faq-text">
+                    <h3>
+                      Is it permissible to use an IDE other than Dev-C++?
+                    </h3>
+                    <p>
+                      Although many other IDEs and compilers can support C language programs (such as Visual Studio, Geany, and Clang). The Dev-C++ IDE and TDM-GCC compiler (which is installed by default on Dev-C++) are the IDEs used in learning sessions and practical exams, as determined by the BINUS University SLC (Software Laboratory Center).
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="ide">
+                <div class="faq-content">
+                  <h3 class="faq-number">02</h3>
+                  <div class="faq-text">
+                    <h3>Is PBP mandatory?</h3>
+                    <p>
+                      PBP is not mandatory to follow. But it would be better to follow it as a preparation for starting the first semester of lectures.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="kit">
+                <div class="faq-content">
+                  <h3 class="faq-number">01</h3>
+                  <div class="faq-text">
+                    <h3>What is HIMTI KIT?</h3>
+                    <p>
+                      HIMTI KIT is a starter kit which consists of a summary of material from several courses that support SoCS students' studies over the next few semesters.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="kit">
+                <div class="faq-content">
+                  <h3 class="faq-number">02</h3>
+                  <div class="faq-text">
+                    <h3>
+                      What conditions are needed to access HIMTI KIT?
+                    </h3>
+                    <p>
+                      To get access to the HIMTI KIT, BINUSIAN SoCS 2028 is registered to be present at the TECHNO 2024 main event from the start to the end of the event via the attendance form announced by the committee during the event. When HIMTI KIT can be accessed and how to access HIMTI KIT will be informed via the TECHNO 2024 participant LINE group. So that after the main event ends, it is hoped that participants will not leave the group first.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="twibbon">
+                <div class="faq-content">
+                  <h3 class="faq-number">01</h3>
+                  <div class="faq-text">
+                    <h3>
+                      Does twibbon have to be uploaded to Instagram if you want to follow TECHNO?
+                    </h3>
+                    <p>
+                      Twibbon is not required to be uploaded, but can be uploaded to liven the event.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="activist">
+                <div class="faq-content">
+                  <h3 class="faq-number">01</h3>
+                  <div class="faq-text">
+                    <h3>
+                      Does being a HIMTI activist interfere with your lecture activities?
+                    </h3>
+                    <p>
+                      Being a HIMTI activist certainly does not interfere with lectures. By becoming a HIMTI activist you can also improve many of the soft skills needed in the future. However, it is also important for you to be able to manage your time well between lectures, organizations and other activities. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="activist">
+                <div class="faq-content">
+                  <h3 class="faq-number">02</h3>
+                  <div class="faq-text">
+                    <h3>
+                      Who can register to become a HIMTI activist?
+                    </h3>
+                    <p>
+                      All School of Computer Science (SoCS) students have the opportunity to register as HIMTI activists. This is an opportunity for SoCS students to develop themselves.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item" data-category="activist">
+                <div class="faq-content">
+                  <h3 class="faq-number">03</h3>
+                  <div class="faq-text">
+                    <h3>
+                      I have no experience in any organization before. Can I still register to become a HIMTI activist?
+                    </h3>
+                    <p>
+                      HIMTI activist registration is open to all SoCS students, both those who have or have never been involved in organizational activities. HIMTI can be the right choice to increase your organizational experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sponsors">
+          <img src="./assets/background-sponsor.svg" alt="Sponsor Background" class="background">
+          <div class="sponsors-content">
+            <div class="sponsor-items">
+              <h1>Our Sponsors</h1>
+              <img src="./assets/sponsors.png" class="sponsor-list">
+              <h1>Supported By</h1>
+              <a href="https://www.dewaweb.com" target=”_blank”>
+                <img src="./assets/dewaweb.svg" class="dewaweb">
+              </a>
+              <h1>Connect With Us</h1>
+              <div class="social-media-links">
+                <a href="https://www.instagram.com/techno2024official/" target=”_blank”>
+                  <div class="social-media-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>@techno2024official</span>
+                  </div>
+                </a>
+
+                <a href="https://www.tiktok.com/@techno.himti" target=”_blank”>
+                  <div class="social-media-item">
+                    <i class="fab fa-tiktok"></i>
+                    <span>@techno.himti</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+      <section class="footer">
+        <div class="footer-content">
+          <div class="footer-logos">
+            <img
+              src="assets/logo2.png"
+              alt="TECHNO 2024 Logo"
+              class="logo-techno"
+            />
+            <img
+              src="assets/logo-binus.png"
+              alt="BINUS University Logo"
+              class="logo-binus"
+            />
+            <img
+              src="assets/logo-himti.png"
+              alt="HIMTI Logo"
+              class="logo-himti"
+            />
+          </div>
+          <p>
+            ©2024 Himpunan Mahasiswa Teknik Informatika (HIMTI) BINUS
+            UNIVERSITY.
+          </p>
+          <p>© All Rights Reserved</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

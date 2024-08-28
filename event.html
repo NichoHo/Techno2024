@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>TECHNO 2024</title>
+    <link href="./event.css" rel="stylesheet" type="text/css" />
+    <link href="./navbar-footer.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="event.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="assets/logo1.png" alt="Logo Techno" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="./index.html#faq">FAQ</a></li>
+        </ul>
+        <div class="placeholder"></div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Events -->
+    <main>
+      <img
+        class="background-events"
+        src="./assets/Background-events.png"
+        alt="Background events"
+      />
+      <img
+        class="background-events-tab"
+        src="./assets/Background-events-tab.png"
+        alt="Background events tab"
+      />
+      <img
+        class="background-events-phone"
+        src="./assets/Background-events-phone.png"
+        alt="Background events phone"
+      />
+      <div class="background-container">
+        <section class="event-section">
+          <div class="events-title" style="margin-top: 10vw">
+            <h1>EVENTS</h1>
+          </div>
+          <div class="event-pbp">
+            <img
+              class="algorena"
+              src="assets/poster-algorena.png"
+              alt="image pbp"
+            />
+            <div class="event-pbp-content">
+              <div class="event-pbp-description">
+                <h2
+                  style="font-family: &quot;Atlantis&quot;; font-weight: normal"
+                >
+                  PEMBELAJARAN BAHASA PEMROGRAMAN
+                </h2>
+                <p style="font-weight: bold">
+                  PBP, or Pengenalan Bahasa Programming, is one of the benefits
+                  received by participants of TECHNO 2024 Event.
+                </p>
+                <br />
+                <p>
+                  In this learning session, the material taught is basic
+                  programming languages C and Python (for Senayan Region) which
+                  will be useful for you freshmen of the School of Computer
+                  Science who have never tried coding. <br />
+                  <br />
+                  In addition, PBP will also hold a competitive programming
+                  competition for beginners, namely Algorena! Of course, there
+                  are attractive prizes for the winners. Come on, join PBP!
+                </p>
+              </div>
+              <div>
+                <div id="event-place">
+                  <h3>KEMANGGISAN</h3>
+                </div>
+                <div class="event-pbp-carousel">
+                  <div class="event-pbp-left-arrow" onclick="prevSlide()">
+                    <img src="assets/left-arrow.svg" alt="Previous" />
+                  </div>
+                  <div class="carousel" id="carousel-content"></div>
+                  <div class="event-pbp-right-arrow" onclick="nextSlide()">
+                    <img src="assets/right-arrow.svg" alt="Next" />
+                  </div>
+                </div>
+              </div>
+              <br />
+              <a
+                href="https://bit.ly/RegistrationTECHNO2024"
+                target="”_blank”"
+                class="event-pbp-register"
+                ><button>REGISTER NOW</button></a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- guest star, game, side quest, talkshow section -->
+        <section class="main-event">
+          <div class="events-title">
+            <h1 style="margin-bottom: 5rem; margin-top: 5rem">Main Event</h1>
+          </div>
+          <div class="guest-star">
+            <h1>MEET OUR<br />GUEST STAR</h1>
+            <div class="guest-star-content">
+              <div class="guest-description">
+                <p>
+                  There will be a special guest star in the main event. Now who
+                  would it be?
+                </p>
+              </div>
+              <div class="guest-image">
+                <img src="./assets/guest.png" alt="guest image" />
+                <h2>?????</h2>
+              </div>
+            </div>
+          </div>
+          <div class="events-container">
+            <div class="events-card">
+              <h2>TALKSHOW</h2>
+              <p>
+                A talkshow titled "Journey to 'Atlantis': Ethics and Resilience
+                in AI" for SoCS students to understand further about AI, which
+                is now popular in many fields.
+              </p>
+            </div>
+            <div class="events-card" style="margin: 1rem 1rem 0">
+              <h2>GAMES</h2>
+              <p>
+                Throughout the event, there will be several games you can win to
+                further know about HIMTI and strengthen your relations with
+                friends. And psst, there are prizes too you know.
+              </p>
+            </div>
+            <div class="events-card">
+              <h2>SIDE QUEST</h2>
+              <p>
+                Love making contents? Then you can participate in TECHNO's side
+                quest to make a content about TECHNO. You can learn more about
+                Side Quest
+                <a
+                  href="https://drive.google.com/file/d/1FZPm4L-uYYZLXvSn1FUEzhf0PtbbZX7h/view?usp=drive_link"
+                  target="”_blank”"
+                  style="text-decoration: none; color: #186fde"
+                  >here</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- expo section -->
+        <img
+          src="./assets/background-expo.png"
+          alt="background expo"
+          class="bg-expo"
+        />
+        <div class="expo-outer-container">
+          <section class="expo">
+            <h1 style="margin-bottom: 3rem" class="expo-title">EXPO</h1>
+            <div class="expo-content-container">
+              <div class="expo-content">
+                <div class="expo-button-left" id="click-left">
+                  <img src="assets/left-arrow.svg" alt="" />
+                </div>
+
+                <div class="expo-card-cont">
+                  <div class="expo-card" id="card-1">
+                    <div class="expo-card-place-desc" id="card-desc-1">
+                      <h2>ALAM SUTERA</h2>
+                      <p>29 - 31 Agustus 2024</p>
+                      <p>09:00 - 17:00 WIB</p>
+                      <p>Lobby Binus @Alam Sutera</p>
+                    </div>
+                  </div>
+                  <div class="expo-card" id="card-2">
+                    <div class="expo-card-place-desc" id="card-desc-2">
+                      <h2>KEMANGGISAN</h2>
+                      <p>29 - 31 Agustus 2024</p>
+                      <p>09:00 - 17:00 WIB</p>
+                      <p>Binus @Kemanggisan</p>
+                    </div>
+                  </div>
+                  <div class="expo-card" id="card-3">
+                    <div class="expo-card-place-desc" id="card-desc-3">
+                      <h2>SENAYAN</h2>
+                      <p>Senin, 11 Agustus 2024</p>
+                      <p>11:00 WIB</p>
+                      <p>Binus @Senayan</p>
+                    </div>
+                  </div>
+                  <div class="expo-card" id="card-4">
+                    <div class="expo-card-place-desc" id="card-desc-4">
+                      <h2>SEMARANG</h2>
+                      <p>Senin, 11 Agustus 2024</p>
+                      <p>11:00 WIB</p>
+                      <p>Binus @Semarang</p>
+                    </div>
+                  </div>
+                  <div class="expo-card" id="card-5">
+                    <div class="expo-card-place-desc" id="card-desc-5">
+                      <h2>MALANG</h2>
+                      <p>26 Agustus 2023</p>
+                      <p>09:00 - 17:00 WIB</p>
+                      <p>Binus @Malang</p>
+                    </div>
+                  </div>
+                  <div class="expo-card" id="card-6">
+                    <div class="expo-card-place-desc" id="card-desc-6">
+                      <h2>BEKASI</h2>
+                      <p>29 - 31 Agustus 2024</p>
+                      <p>09:00 - 17:00 WIB</p>
+                      <p>Binus @Bekasi</p>
+                    </div>
+                  </div>
+                  <div class="expo-card" id="card-7">
+                    <div class="expo-card-place-desc" id="card-desc-7">
+                      <h2>BANDUNG</h2>
+                      <p>26 - 27 Agustus 2024</p>
+                      <p>09:00 - 17:00 WIB</p>
+                      <p>Binus @Bandung</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="expo-button-right" id="click-right">
+                  <img src="assets/right-arrow.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <section class="footer">
+      <div class="footer-content">
+        <div class="footer-logos">
+          <img
+            src="assets/logo2.png"
+            alt="TECHNO 2024 Logo"
+            class="logo-techno"
+          />
+          <img
+            src="assets/logo-binus.png"
+            alt="BINUS University Logo"
+            class="logo-binus"
+          />
+          <img
+            src="assets/logo-himti.png"
+            alt="HIMTI Logo"
+            class="logo-himti"
+          />
+        </div>
+        <p>
+          ©2024 Himpunan Mahasiswa Teknik Informatika (HIMTI) BINUS UNIVERSITY.
+        </p>
+        <p>© All Rights Reserved</p>
+      </div>
+    </section>
+
+    <script src="./event.js" type="text/js"></script>
+  </body>
+</html>
